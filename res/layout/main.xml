@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<name.neday.apple.daydayrun.view.DragLayoutView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="50dp" >
+
+        <name.neday.apple.daydayrun.view.RoundImageView
+            android:id="@+id/iv_set_avator"
+            style="@style/Smile.ImageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/default_head" />
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/iv_set_avator"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="5dp"
+            android:paddingTop="20dp"
+            android:text="@string/username"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_set_avator"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/NearPeople"
+                android:layout_width="180.0dip"
+                android:layout_height="50.0dip"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ph1"
+                android:drawablePadding="1.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="10.0dip"
+                android:text="@string/nearpeople"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="180.0dip"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+
+            <TextView
+                android:id="@+id/AddPeople"
+                android:layout_width="180.0dip"
+                android:layout_height="50.0dip"
+                android:clickable="true"
+                android:drawableLeft="@drawable/cg"
+                android:drawablePadding="1.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="10.0dip"
+                android:text="@string/addpeople"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="180.0dip"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+
+            <TextView
+                android:id="@+id/MyLocationNow"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:clickable="true"
+                android:drawableLeft="@drawable/wz"
+                android:drawablePadding="1.0dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="10.0dip"
+                android:text="@string/mylocationnow"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="180.0dip"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/btn_logout"
+                    android:layout_width="180.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_menu_info_details"
+                    android:drawablePadding="1.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="10.0dip"
+                    android:text="@string/btn_logout"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="180.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_above="@+id/CheckForUpdates"
+                    android:layout_alignParentLeft="true"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/a324"
+                    android:drawablePadding="1.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="10.0dip"
+                    android:text="@string/about"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/CheckForUpdates"
+                    android:layout_width="180.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_above="@+id/btn_logout"
+                    android:layout_alignParentLeft="true"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/a3222"
+                    android:drawablePadding="1.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="10.0dip"
+                    android:text="@string/checkforupdates"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="180.0dip"
+                    android:layout_height="2.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/btn_logout"
+                    android:background="@drawable/ic_shelf_category_divider" />
+
+                <View
+                    android:layout_width="180.0dip"
+                    android:layout_height="2.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/CheckForUpdates"
+                    android:background="@drawable/ic_shelf_category_divider" />
+
+                <View
+                    android:layout_width="180.0dip"
+                    android:layout_height="2.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/about"
+                    android:background="@drawable/ic_shelf_category_divider" />
+
+                <TextView
+                    android:id="@+id/daydaylist"
+                    android:layout_width="180.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ph2"
+                    android:drawablePadding="1.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="10.0dip"
+                    android:text="@string/daydaylist"
+                    android:textColor="@android:color/white"
+                    android:textSize="18.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <name.neday.apple.daydayrun.view.MyRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/viewpage08"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/row_spacing" >
+
+            <include layout="@layout/layout_title_bar" />
+
+            <LinearLayout
+                android:id="@+id/row_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/row_spacing"
+                android:paddingTop="@dimen/row_spacing" >
+
+                <LinearLayout
+                    android:id="@+id/box_steps"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/margin" >
+
+                    <TextView
+                        android:id="@+id/step_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:text="@string/zero"
+                        android:textSize="@dimen/value" />
+
+                    <TextView
+                        android:id="@+id/step_units"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="@dimen/padding"
+                        android:text="@string/steps"
+                        android:textSize="@dimen/units" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/box_distance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/distance_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:text="@string/zero"
+                        android:textSize="@dimen/value" />
+
+                    <TextView
+                        android:id="@+id/distance_units"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="@dimen/padding"
+                        android:text="@string/kilometers"
+                        android:textSize="@dimen/units" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/time_row_spacing" >
+
+                <LinearLayout
+                    android:id="@+id/box_pace"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/margin" >
+
+                    <TextView
+                        android:id="@+id/pace_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:text="@string/zero"
+                        android:textSize="@dimen/small_value" />
+
+                    <TextView
+                        android:id="@+id/pace_units"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="@dimen/padding"
+                        android:text="@string/steps_per_minute"
+                        android:textSize="@dimen/units" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/box_speed"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/margin" >
+
+                    <TextView
+                        android:id="@+id/speed_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:text="@string/zero"
+                        android:textSize="@dimen/small_value" />
+
+                    <TextView
+                        android:id="@+id/speed_units"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="@dimen/padding"
+                        android:text="@string/kilometers_per_hour"
+                        android:textSize="@dimen/units" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/box_calories"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/calories_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:paddingTop="@dimen/padding"
+                        android:text="@string/zero"
+                        android:textSize="@dimen/small_value" />
+
+                    <TextView
+                        android:id="@+id/calories_units"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_transparent_bg"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="@dimen/padding"
+                        android:text="@string/calories_burned"
+                        android:textSize="@dimen/units" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/time_row_spacing" >
+
+                <TextView
+                    android:id="@+id/timeView"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/color_transparent_bg"
+                    android:gravity="center"
+                    android:text="@string/ready"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:padding="18dp"
+                    android:text="@string/start"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:padding="18dp"
+                    android:text="@string/pause"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:padding="18dp"
+                    android:text="@string/chat"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:text="@string/mark"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:padding="18dp"
+                    android:text="@string/reset"
+                    android:textSize="20sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <name.neday.apple.daydayrun.semicircularmenu.SemiCircularRadialMenu
+                android:id="@+id/radial_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp" />
+        </LinearLayout>
+    </name.neday.apple.daydayrun.view.MyRelativeLayout>
+
+</name.neday.apple.daydayrun.view.DragLayoutView>

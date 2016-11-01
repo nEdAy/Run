@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">天理跑团</string>
+    <string name="notification_subtitle">正在记录您的每一步</string>
+    
+    <string name="started">跑团已启动~</string>
+    <string name="stopped">跑团已停止~</string>
+
+    <string name="zero">0</string>
+    <string name="steps">步数</string>
+    <string name="kilometers">千米</string>
+    <string name="miles">英里</string>
+    <string name="steps_per_minute">步数 / 分钟</string>
+    <string name="kilometers_per_hour">千米  / 小时</string>
+    <string name="miles_per_hour">英里 / 小时</string>
+    <string name="calories_burned">燃烧热量/ 卡路里</string>
+    
+    <string name="centimeters">厘米</string>
+    <string name="inches">英寸</string>
+    <string name="kilograms">公斤</string>
+    <string name="pounds">英镑</string>
+
+    <string name="ready">Let\&apos;s Run!</string>
+    <string name="start">开始</string>
+	<string name="mark">累加</string>
+	<string name="pause">暂停</string>
+	<string name="resume">继续</string>
+	<string name="reset">重置</string>
+	
+	
+	<string name="nearpeople">  附近约跑</string>
+	<string name="addpeople">  查找朋友</string>
+	<string name="mylocationnow">  我的位置</string>
+	<string name="btn_logout">  注销帐号</string>
+	<string name="about">  这是关于</string>	
+	<string name="checkforupdates">  检查更新</string>	
+	<string name="daydaylist">  每日排行</string>	
+	
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="activity_settings">计步器设置</string>
+    <string name="steps_settings_title">基本设置</string>
+    <string name="sensitivity_setting">灵敏度设置</string>
+    <string name="sensitivity_setting_details">校准计步传感器</string>
+    <string name="sensitivity_setting_title">选择敏感水平</string>
+<!--     <string name="extra_high">超高</string> -->
+<!--     <string name="very_high">很高</string> -->
+<!--     <string name="high">高</string> -->
+    <string name="higher">较高</string>
+    <string name="medium">一般</string>
+    <string name="lower">较低</string>
+<!--     <string name="low">低</string> -->
+<!--     <string name="very_low">很低</string> -->
+<!--     <string name="extra_low">超低</string> -->
+    <string name="operation_level_setting">系统设置</string>
+    <string name="operation_level_setting_details">防止系统休眠时停止传感器，选择适合你的操作等级</string>
+    <string name="operation_level_setting_title">选择操作等级</string>
+    <string name="run_in_background">正常（后台运行）</string>
+    <string name="keep_screen_on">屏幕（屏幕变暗不锁屏）</string>
+    <string name="wake_up">积极（关闭屏幕时唤醒）</string>
+    
+    <string name="step_length_setting">步长</string>
+    <string name="step_length_setting_details">便于距离、速度和燃烧热量的计算</string>
+    <string name="step_length_setting_title">输入您的步长</string>
+    <string name="body_weight_setting">体重</string>
+    <string name="body_weight_setting_details">便于燃烧热量的计算</string>
+    <string name="body_weight_setting_title">输入您的体重</string>
+    <string name="exercise_type_setting">运动方式</string>
+    <string name="exercise_type_setting_details">选择一种消耗热量的方式</string>
+    <string name="exercise_type_setting_title">选择运动方式</string>
+    <string name="exercise_type_running">跑步</string>
+    <string name="exercise_type_walking">散步</string>
+    
+    <string name="voice_settings_title">语音</string>
+    <string name="voice_setting">语音设置</string>
+    <string name="voice_setting_details">启用/禁用声音提醒</string>
+    <string name="speaking_interval_setting">通知时间间隔</string>
+    <string name="speaking_interval_setting_details">语音提醒的间隔时间</string>
+    <string name="interval_15_seconds">15 秒</string>
+    <string name="interval_30_seconds">30 秒</string>
+    <string name="interval_1_minute">1 分钟</string>
+    <string name="interval_2_minutes">2 分钟</string>
+    <string name="interval_5_minutes">5 分钟</string>
+    <string name="interval_10_minutes">10 分钟</string>
+    <string name="tell_what">语言播报内容</string>
+    <string name="tell_steps_setting">步数</string>
+    <string name="tell_steps_setting_details">步</string>
+    <string name="tell_pace_setting">步幅</string>
+    <string name="tell_pace_setting_details">步数  / 分钟</string>
+    <string name="tell_distance_setting">距离</string>
+    <string name="tell_distance_setting_details">公里或英里</string>
+    <string name="tell_speed_setting">速度</string>
+    <string name="tell_speed_setting_details">公里或英里/小时</string>
+    <string name="tell_calories_setting">燃烧热量</string>
+    <string name="tell_calories_setting_details">卡路里</string>
+    <string name="incorrect_step_length">步长格式不正确！去重新设置来改变它！</string>
+    <string name="quit">退出</string>
+
+    <string name="description">image</string>
+
+    <string name="whatsnew_page01">"小苹果\n是一种生活方式"</string>
+	<string name="whatsnew_start_btn">"开始"</string>
+	    
+    <string name="action_settings">设置</string>
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="login_pwd_again_hint">请在此输入密码&#8230;</string>
+    <string name="login_email_hint">请输入邮箱&#8230;</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="login_account">账号 </string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_pwd_again">确认密码 </string>
+    <string name="login_email">邮箱 </string>
+    <string name="message_search_hint">搜索&#8230;</string>
+    
+    <string name="main_tab_recent">会话</string>
+    <string name="main_tab_contact">联系人</string>
+    <string name="mian_tab_set">设置</string>
+    
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    <string name="add_avator">头像</string>
+    <string name="add_nick">昵称</string>
+    <string name="add_name">账号</string>
+    <string name="add_name_hint">请输入昵称&#8230;</string>
+    <string name="add_gender">性别</string>
+    
+    <string name="set_notify">接收新消息通知</string>
+    <string name="set_myinfo">偶的资料</string>
+    <string name="set_blacklist">黑名单</string>
+    <string name="set_voice">声音</string>
+    <string name="set_vibrate">震动</string>
+    <string name="tips">提示</string>
+    
+    <string name="logout">退出登陆</string>
+    <string name="pop_photo">拍照</string>
+    <string name="pop_choose">从手机相册选中</string>
+    <string name="network_tips">当前网络不可用,请检查您的网络!</string>
+    <string name="toast_error_password_null">密码不能为空</string>
+    <string name="toast_error_username_null">用户名不能为空</string>
+    <string name="toast_error_comfirm_password">输入的两次密码不一致</string>
+    <string name="toast_error_email_null">邮箱不能为空</string>
+    
+    <string name="resetpassword">重置密码</string>
+    <string name="resetpassword_ok">发送邮件</string>
+        
+    <string name="blacklist">黑名单</string>
+    <string name="chat">约聊会话</string>
+    <string name="add_friend">添加朋友</string>
+    <string name="btn_location">相互位置</string>
+    
+    
+    <string name="send_state">已读</string>
+    
+    <string name="longclick_speak">长按说话</string>
+    <string name="picture">照片</string>
+    <string name="camera">拍摄</string>
+    <string name="location">位置</string>
+    
+    <string name="black_tips">已添加至黑名单，你将不再收到对方的消息!</string>
+    
+    <string name="username">用户名</string>
+    <string name="search">搜索</string>
+    
+    <string name="new_friends">新朋友</string>
+    <string name="near_people">附近朋友</string>
+   
+    <string name="voice_up_tips">手指上滑,取消发送</string>
+    <string name="voice_cancel_tips">松开手指，取消发送</string>
+    <string name="voice_seconds_tips">还可以说%1$s秒</string>
+    <string name="voice_short_tips">录音时间太短</string>
+    
+</resources>
